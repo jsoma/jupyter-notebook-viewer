@@ -36,7 +36,7 @@ md.storage = ({compilers}) => {
 }
 
 md.storage.defaults = (compilers) => {
-  var match = 'ipynb'
+  var match = 'ipynb(.txt)?'
   //TODO:regexp url
 
   var defaults = {
